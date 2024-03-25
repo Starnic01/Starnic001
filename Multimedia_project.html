@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starnic Fruits and Vegetables Limited</title>
+    <link rel="stylesheet" href="Multimedia_styling.css">
+    
+</head>
+
+<body>    
+    <header>
+        <h1>Starnic Fruits and Vegetables Limited</h1>
+    </header>
+    <div class="grid-container">
+        <div class="flex-item">About Us</div>
+        Starnic Fruits and Vegetables Limited is a trusted provider of fresh, 
+        high-quality fruits and vegetables. 
+        We source directly from local farms to offer a diverse selection of produce, 
+        delivering freshness to your doorstep.
+        <div class="flex-item">Mission</div>
+        Our mission is to revolutionize fresh produce delivery by providing convenient access to 
+        wholesome fruits and vegetables sourced sustainably from local farms. 
+        We prioritize freshness, quality, and customer satisfaction to promote healthier lifestyles.
+        <div class="flex-item">Vision</div>
+        We aspire to lead the way in fresh produce distribution, setting the standard for quality and service. 
+        Our vision is a future where everyone has easy access to nutritious, locally sourced produce, 
+        fostering healthier communities and a more sustainable planet.
+    </div>
+    
+        <div class="content">
+            <h1 id="heading">Starnic Fruits and Vegetables Limited</h1>
+            Please register here and make your order
+        </div>           
+      
+    
+    <div class="container">
+        <video autoplay muted loop id="video-background">
+            <source src="https://player.vimeo.com/progressive_redirect/playback/269971860/rendition/360p/file.mp4?loc=external&oauth2_token_id=1747418641&signature=46e9b772600548e104e273a5cc855882f3c2e27de3e709bce2105232a1f9439a" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <main>
+            <form>
+                <fieldset>
+                    <legend></legend>
+                    <section>
+                        <label for="fullname">Full Name:</label>
+                        <input type="fullname" id="fullname" name="fullname" required>
+                    </section>
+                    
+                    <section>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </section>
+
+                    <section>
+                        <label for="phonenumber">Phone Number:</label>
+                        <input type="phonenumber" id="phonenumber" name="phonenumber" required>
+                    </section>
+                                   
+                    <section>
+                        <label for="deliveryoption">Delivery Option:</label>
+                        <select id="deliveryoption" name="deliveryoption">
+                            <option value="please select">-Please Select-</option>
+                            <option value="door">Door</option>
+                            <option value="pickupstation">Pick-up Station</option>                            
+                        </select>
+                    </section>
+
+                    <section>
+                        <label for="station">Preferred Pick-up station:</label>
+                        <select id="station" name="station">
+                            <option value="please select">-Please Select-</option>
+                            <option value="na">N/A</option>
+                            <option value="thika">Thika</option>
+                            <option value="thika">Nairobi CBD</option>
+                            <option value="rongai">Rongai</option>
+                            <option value="westlands">Westlands</option>
+                            <option value="embakasi">Embakasi</option>                                                        
+                        </select>
+                    </section>
+
+                    <section>
+                        <label for="door">For door delivery, pin your location:</label>
+                        <section>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d255285.972214561!2d36.73232436477051!3d-1.2666984020557308!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1710065801512!5m2!1sen!2ske" width="400" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </section>
+                    </section>                               
+                                         
+                     
+                    <section>
+                        <label>
+                            <input type="checkbox" id="TermsAndConditions" name="TermsAndConditions">
+                            Agree to Terms and Conditions
+                        </label>                   
+                    </section>
+                
+                    <section>
+                        <label for="comments">Please leave a Comment (optional):</label>
+                        <textarea id="comments" name="comments" rows="4"></textarea>
+                    </section>
+                                                
+                </fieldset>                
+            </form>
+            
+        </main> 
+        <aside>
+            <section>
+                <label>Fruit & Vegetable Selection:</label>
+                <table id="products-table">
+                    <thead>
+                        <tr>
+                            <th>Fruit</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="bananas">
+                                    <span class="checkmark"></span>
+                                    Banana
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="pineapple">
+                                    <span class="checkmark"></span>
+                                    Pineapple
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="bananas">
+                                    <span class="checkmark"></span>
+                                    Spinach
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="pineapple">
+                                    <span class="checkmark"></span>
+                                    Avocado
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="bananas">
+                                    <span class="checkmark"></span>
+                                    Cabbage
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="pineapple">
+                                    <span class="checkmark"></span>
+                                    Onions
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="bananas">
+                                    <span class="checkmark"></span>
+                                    Watermelon
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="pineapple">
+                                    <span class="checkmark"></span>
+                                    Carrots
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="bananas">
+                                    <span class="checkmark"></span>
+                                    Oranges
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="pineapple">
+                                    <span class="checkmark"></span>
+                                    Apple
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="bananas">
+                                    <span class="checkmark"></span>
+                                    Sweet potatoes
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" name="products" value="pineapple">
+                                    <span class="checkmark"></span>
+                                    Potatoes
+                                </label>
+                            </td>
+                            <td>
+                                <input type="number" name="quantity" class="quantity-input" min="0">
+                            </td>
+                        </tr>                       
+                    </tbody>
+                </table>
+            </section>
+            <button type="submit">Submit</button>
+        </aside>
+           
+        
+    </div>   
+  
+    <section>
+        <audio controls>
+            <source src="sounds-awesome-105793.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <section>
+        <video controls width="1200" height="700">
+            <source src="pexels_videos_992601 (1080p).mp4" type="video/mp4">
+            Your browser does not support the video element
+        </video>
+    </section>      
+    
+</body>
+
+<footer>
+    <p>© 2024 STARNIC. All Rights Reserved.</p>
+</footer> 
+
+
+</html>

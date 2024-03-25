@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrol to IYF</title>
+</head>
+<body>
+    <h1>Enrol to IYF</h1>
+
+    <form>
+        <section>
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required>
+        </section>
+
+        <section>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required>
+        </section>
+
+        <section>
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="-Please select-">-Please Select-</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </section>
+        
+        <section>
+            <label for="phonenumber">Phone Number</label>
+            <input type="number" id="phonenumber" name="phonenumber" required>
+        </section>
+
+        <section>
+            <label for="courseenrolled">Course To Enrol</label>
+            <select id="courseenrolled" name="courseenrolled">
+                <option value="-Please select-">-Please Select-</option>
+                <option value="ComputerProgramming">Computer Programming</option>
+                <option value="ComputerPackages">Computer Packages</option>
+                <option value="GraphicDesign">Graphics Design</option>
+                <option value="UIUX">UI UX</option>
+                <option value="VideoEditing">Video Editing</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Korean">Korean</option>
+            </select>
+        </section>
+        <section>
+            <label>
+                <input type="checkbox" id="TermsAndConditions" name="TermsAndConditions">
+                Agree To Terms and Conditions
+            </label>
+        </section>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
